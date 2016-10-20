@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <status>1</status>
+  <result>
+    <ROWSET>
+      <ROW>
+        <PLAN_ID>198</PLAN_ID>
+        <PLAN_NAME>ip-договор(кредитный) не используется</PLAN_NAME>
+        <PLAN_GROUP_ID>4</PLAN_GROUP_ID>
+        <ACTIVE_FROM>01-JAN-05</ACTIVE_FROM>
+        <ACTIVE_TO/>
+        <COMPANY_ID/>
+      </ROW>
+      <ROW>
+        <PLAN_ID>34654</PLAN_ID>
+        <PLAN_NAME>Бонус &quot;Сессия на отлично&quot;_34647</PLAN_NAME>
+        <PLAN_GROUP_ID>61</PLAN_GROUP_ID>
+        <ACTIVE_FROM>21-APR-16</ACTIVE_FROM>
+        <ACTIVE_TO>22-APR-16</ACTIVE_TO>
+        <COMPANY_ID/>
+      </ROW>
+    </ROWSET>
+  </result>
+  <messages>
+    <code/>
+    <text/>
+  </messages>
+</data>
