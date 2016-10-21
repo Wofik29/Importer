@@ -12,11 +12,27 @@
         <COMPANY_ID/>
       </ROW>
       <ROW>
+        <PLAN_ID>34201</PLAN_ID>
+        <PLAN_NAME>Вознаграждение агента ФЛ</PLAN_NAME>
+        <PLAN_GROUP_ID>0</PLAN_GROUP_ID>
+        <ACTIVE_FROM>29-FEB-16</ACTIVE_FROM>
+        <ACTIVE_TO/>
+        <COMPANY_ID>546</COMPANY_ID>
+      </ROW>
+      <ROW>
         <PLAN_ID>34654</PLAN_ID>
         <PLAN_NAME>Бонус &quot;Сессия на отлично&quot;_34647</PLAN_NAME>
         <PLAN_GROUP_ID>61</PLAN_GROUP_ID>
         <ACTIVE_FROM>21-APR-16</ACTIVE_FROM>
         <ACTIVE_TO>22-APR-16</ACTIVE_TO>
+        <COMPANY_ID/>
+      </ROW>
+      <ROW>
+        <PLAN_ID>30894</PLAN_ID>
+        <PLAN_NAME>VPN\КС 10 - 11800</PLAN_NAME>
+        <PLAN_GROUP_ID>60</PLAN_GROUP_ID>
+        <ACTIVE_FROM>01-OCT-14</ACTIVE_FROM>
+        <ACTIVE_TO>08-DEC-16</ACTIVE_TO>
         <COMPANY_ID/>
       </ROW>
     </ROWSET>
