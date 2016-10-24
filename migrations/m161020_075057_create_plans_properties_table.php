@@ -22,7 +22,7 @@ class m161020_075057_create_plans_properties_table extends Migration
             'PRIMARY KEY(property_id)'
         ]);
 
-        $this->addForeignKey('plan_id', 'plans_properties', 'plan_id', 'plans', 'plan_id');
+        $this->addForeignKey('fk_plan_property', 'plans_properties', 'plan_id', 'plans', 'plan_id');
     }
 
     /**

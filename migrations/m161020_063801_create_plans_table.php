@@ -13,7 +13,7 @@ class m161020_063801_create_plans_table extends Migration
     public function up()
     {
         $this->createTable('plans', [
-            'plan_id' => $this->integer(11)->notNull(),
+            'plan_id' => $this->integer()->notNull(),
             'plan_name'=> $this->string(120),
             'plan_group_id'=>$this->integer(11),
             'active_from'=>$this->date(),
