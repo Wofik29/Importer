@@ -13,13 +13,9 @@ class Importer extends Controller
 {
     private $current_time;
     private $count;
-    private $compare;
 
     public function actionIndex()
     {
-        $this->current_time = date_create();
-        $this->compare = array();
-
         //$textxml = simplexml_load_file(__DIR__.'/test.xml');
         $textxml = simplexml_load_file(__DIR__.'/plans.xml');
         $command = \Yii::$app->db->createCommand('
@@ -41,6 +37,7 @@ class Importer extends Controller
     // Пробегает по массиву и добавляет актуальные строки
     private function parseXML($textxml, $command, $compare = []) 
     {
+        $this->current_time = date_create();
         $this->count = 0;
         foreach ($textxml->result->ROWSET->ROW as $row) {
             // Проверяем, есть ли данный plan_id  в родительской таблице
@@ -54,6 +51,8 @@ class Importer extends Controller
             }
         }
         echo "Количество добавленных строк ".$this->count.".\n";
+        $diff = date_create()->diff($this->current_time);
+        echo "Прошло ".$diff->i." минут и ".$diff->s." секунд.\n";
     }
 
     // Связывает значения и параметры запроса и добавляет строку в бд
